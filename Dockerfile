@@ -1,4 +1,4 @@
-FROM ruby:2.5-stretch
+FROM ruby:2.6.6-stretch
 WORKDIR /usr/src/app
 RUN curl -sL https://deb.nodesource.com/setup_10.x | bash -
 RUN apt -y update && \
